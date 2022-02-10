@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround"
+    android:orientation="vertical"
+    tools:context=".TopicActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/TopicNameText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/browser_actions_divider_color"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ListView
+                android:id="@+id/ConvoList"
+                android:layout_width="match_parent"
+                android:layout_height="627dp"
+                android:stackFromBottom="false">
+
+
+            </ListView>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/TextSendText"
+            android:layout_width="310dp"
+            android:layout_height="72dp"
+            android:layout_gravity="center|left"
+            android:ems="10"
+            android:imeOptions="actionNone"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:padding="10dp"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Button
+            android:id="@+id/buttonsendtext"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center|right"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="@android:drawable/ic_menu_send"
+            android:backgroundTint="@color/black"
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+</LinearLayout>

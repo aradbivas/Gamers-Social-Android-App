@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "162889595758",
+    "firebase_url": "https://finallproject-70fb8-default-rtdb.firebaseio.com",
+    "project_id": "finallproject-70fb8",
+    "storage_bucket": "finallproject-70fb8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:162889595758:android:2ac562a63bed93740d9f7f",
+        "android_client_info": {
+          "package_name": "com.example.finallproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "162889595758-3aeikjtlc42fcjm6al1q4vcpqr3q4d4p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAql4Q8JioMPolyRC8tAbbJfHho5PfFLa8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "162889595758-3aeikjtlc42fcjm6al1q4vcpqr3q4d4p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

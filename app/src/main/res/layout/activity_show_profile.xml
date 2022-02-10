@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="248dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center"
+            android:orientation="vertical"
+            app:cardCornerRadius="50dp"
+            app:cardElevation="0dp">
+
+            <ImageView
+                android:id="@+id/ShowProfileImage"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:scaleType="fitXY"
+                android:src="@drawable/profilepictmp" />
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/dm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:background="@drawable/mycolors"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="DM" />
+
+        <Button
+            android:id="@+id/buttonAddFriend"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_margin="5dp"
+            android:background="@drawable/mycolors"
+            android:padding="5dp"
+            android:text="Add Friend" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ShowProfileName"
+                android:layout_width="match_parent"
+                android:layout_height="76dp"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Username: "
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="87dp"
+            android:layout_weight="0.3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ShowProfileEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Email:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_weight="0.3"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/ShowProfileGames"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Games:"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

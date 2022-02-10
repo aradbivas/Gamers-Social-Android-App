@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backround"
+    android:orientation="vertical"
+    tools:context=".AddGamesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:scaleType="centerInside"
+
+            android:text="Choose games you like" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/game1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageButton
+            android:id="@+id/game2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageButton
+            android:id="@+id/game3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_foreground" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/game4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageButton
+            android:id="@+id/game5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageButton
+            android:id="@+id/game6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_foreground" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/game7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="10dp"
+
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageButton
+            android:id="@+id/game8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageButton
+            android:id="@+id/game9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_foreground" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageButton
+            android:id="@+id/game10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageButton
+            android:id="@+id/game11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <ImageButton
+            android:id="@+id/game12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:adjustViewBounds="true"
+            android:background="@null"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_launcher_foreground" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_weight="1"
+        android:gravity="bottom|center">
+
+        <Button
+            android:id="@+id/ButtonDone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@drawable/mycolors"
+            android:text="Done!" />
+    </LinearLayout>
+
+</LinearLayout>
