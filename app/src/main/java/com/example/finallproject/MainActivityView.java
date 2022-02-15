@@ -8,18 +8,12 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Context;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
-import com.google.firebase.auth.UserInfo;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -28,7 +22,6 @@ import com.google.firebase.database.GenericTypeIndicator;
 import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Locale;
 
 public class MainActivityView extends AppCompatActivity {
@@ -77,7 +70,7 @@ public class MainActivityView extends AppCompatActivity {
                 }
                 for(int i=0 ; i<games.size() ; i++)
                 {
-                    dataSet.add(new DataModel(games.get(i), MyData.id_[i], drawableArray.get(i)));
+                    dataSet.add(new DataModel(games.get(i), GamesData.id_[i], drawableArray.get(i)));
                 }
                 CardMainActivity addapter = new CardMainActivity(dataSet,getApplicationContext());
                 recycleView.setAdapter(addapter);
@@ -108,7 +101,7 @@ public class MainActivityView extends AppCompatActivity {
     }
     public void function_go_to_MainProfile(View view) {
 
-        Intent intent = new Intent(this, MainActivity2.class);
+        Intent intent = new Intent(this, MainActivityUserProfile.class);
         startActivity(intent);
 
 

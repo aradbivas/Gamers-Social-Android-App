@@ -16,7 +16,7 @@
     </fragment>
     <fragment
         android:id="@+id/addGamesFragment"
-        android:name="com.example.finallproject.AddGamesFragment"
+        android:name="com.example.finallproject.UserAddGamesFragment"
         android:label="fragment_add_games"
         tools:layout="@layout/fragment_add_games" >
         <action
@@ -37,7 +37,7 @@
     </fragment>
     <activity
         android:id="@+id/mainActivity2"
-        android:name="com.example.finallproject.MainActivity2"
+        android:name="com.example.finallproject.MainActivityUserProfile"
         android:label="activity_main2"
         tools:layout="@layout/activity_main2" />
     <fragment

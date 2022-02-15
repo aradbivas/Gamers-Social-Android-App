@@ -89,7 +89,7 @@ public class CardFriendRequest extends RecyclerView.Adapter<CardFriendRequest.re
             @Override
             public void onClick(View v) {
                 if(ViewHolder.uid != "123") {
-                    Intent i = new Intent(context, ShowProfile.class);
+                    Intent i = new Intent(context, ShowOtherUsersProfile.class);
                     i.putExtra("Member_UID", ViewHolder.getUid());
                     i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     context.startActivity(i);

@@ -2,7 +2,7 @@ package com.example.finallproject;
 
 
 
-public class MyData {
+public class GamesData {
 
     static String[] nameArray = {"Fifa 21", "Halo", "Warzone", "Among Us", "Sims","Angry Birds","Fruit Ninja","Temple Run","GTA","Fortnite", "Subway Surfer","Worms"};
 

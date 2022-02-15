@@ -43,7 +43,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class MainActivity2 extends AppCompatActivity {
+public class MainActivityUserProfile extends AppCompatActivity {
 
 
     public static final int CAMERA_ACTION_CODE = 1;
@@ -229,7 +229,7 @@ public class MainActivity2 extends AppCompatActivity {
         file.putFile(result).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
             @Override
             public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
-                Toast.makeText(MainActivity2.this, "worked", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivityUserProfile.this, "worked", Toast.LENGTH_LONG).show();
                 file.getDownloadUrl().addOnSuccessListener(new OnSuccessListener<Uri>() {
                     @Override
                     public void onSuccess(Uri uri) {
@@ -240,7 +240,7 @@ public class MainActivity2 extends AppCompatActivity {
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull Exception e) {
-                Toast.makeText(MainActivity2.this, "didnt worked", Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivityUserProfile.this, "didnt worked", Toast.LENGTH_LONG).show();
 
             }
         });

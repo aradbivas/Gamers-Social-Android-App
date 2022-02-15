@@ -71,7 +71,7 @@ public class loginFragment2 extends Fragment {
             @Override
             public void onClick(View v)
             {
-                MainActivity mainActivity = (MainActivity) getActivity();
+                MainActivityLogin mainActivity = (MainActivityLogin) getActivity();
                 mainActivity.funcLogin(v);
             }
         });

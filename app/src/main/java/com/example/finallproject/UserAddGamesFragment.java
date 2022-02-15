@@ -2,14 +2,11 @@ package com.example.finallproject;
 
 import android.app.Activity;
 import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.navigation.Navigation;
 
 import android.view.LayoutInflater;
-import android.view.MotionEvent;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
@@ -17,10 +14,10 @@ import android.widget.ImageButton;
 
 /**
  * A simple {@link Fragment} subclass.
- * Use the {@link AddGamesFragment#newInstance} factory method to
+ * Use the {@link UserAddGamesFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class AddGamesFragment extends Fragment {
+public class UserAddGamesFragment extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -44,7 +41,7 @@ public class AddGamesFragment extends Fragment {
     private String mParam1;
     private String mParam2;
 
-    public AddGamesFragment() {
+    public UserAddGamesFragment() {
         // Required empty public constructor
     }
 
@@ -57,8 +54,8 @@ public class AddGamesFragment extends Fragment {
      * @return A new instance of fragment AddGamesFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static AddGamesFragment newInstance(String param1, String param2) {
-        AddGamesFragment fragment = new AddGamesFragment();
+    public static UserAddGamesFragment newInstance(String param1, String param2) {
+        UserAddGamesFragment fragment = new UserAddGamesFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -80,8 +77,8 @@ public class AddGamesFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view =  inflater.inflate(R.layout.fragment_add_games, container, false);
-        MainActivity mainActivity = (MainActivity) getActivity();
-        Person person = mainActivity.CreatePerson();
+        MainActivityLogin mainActivity = (MainActivityLogin) getActivity();
+        User person = mainActivity.CreatePerson();
 
         ImageButton sims = view.findViewById(R.id.game1);
         sims.setImageResource(R.drawable.sims);

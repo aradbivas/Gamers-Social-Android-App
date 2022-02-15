@@ -72,7 +72,7 @@ public class CardMembersList extends RecyclerView.Adapter<CardMembersList.ViewHo
             @Override
             public void onClick(View v) {
                 if(myViewHolder.getUid() != "123") {
-                    Intent i = new Intent(context, ShowProfile.class);
+                    Intent i = new Intent(context, ShowOtherUsersProfile.class);
                     i.putExtra("Member_UID", myViewHolder.getUid());
                     i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     context.startActivity(i);

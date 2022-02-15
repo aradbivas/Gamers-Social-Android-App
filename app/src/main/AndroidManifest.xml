@@ -42,7 +42,7 @@
             android:exported="false"
             android:windowSoftInputMode="adjustPan" />
         <activity
-            android:name=".ShowProfile"
+            android:name=".ShowOtherUsersProfile"
             android:exported="false" />
         <activity
             android:name=".CardMembersList"
@@ -64,10 +64,10 @@
             android:name=".CardMainActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".MainActivityUserProfile"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".MainActivityLogin"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

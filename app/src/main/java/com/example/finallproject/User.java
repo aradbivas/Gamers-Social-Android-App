@@ -3,7 +3,7 @@ package com.example.finallproject;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Person {
+public class User {
     String name;
     String Id;
     String Email;
@@ -14,7 +14,7 @@ public class Person {
         return gameList;
     }
 
-    public Person()
+    public User()
     {
 
     }
@@ -35,7 +35,7 @@ public class Person {
         return Phone;
     }
 
-    public Person(String name, String email) {
+    public User(String name, String email) {
         this.name = name;
         Email = email;
         gameList = new ArrayList<String>();

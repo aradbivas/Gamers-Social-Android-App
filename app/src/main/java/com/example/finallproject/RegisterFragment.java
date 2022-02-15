@@ -3,18 +3,12 @@ package com.example.finallproject;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
-import androidx.navigation.Navigation;
 
-import android.os.Parcelable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.ImageView;
-
-import java.util.concurrent.locks.Lock;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.concurrent.locks.ReentrantReadWriteLock;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -80,7 +74,7 @@ public class RegisterFragment extends Fragment {
         buttonSignUp.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                MainActivity mainActivity = (MainActivity) getActivity();
+                MainActivityLogin mainActivity = (MainActivityLogin) getActivity();
                 mainActivity.funcRegister(v);
             }
         });

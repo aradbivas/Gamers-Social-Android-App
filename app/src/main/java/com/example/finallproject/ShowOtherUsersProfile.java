@@ -31,7 +31,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class ShowProfile extends AppCompatActivity {
+public class ShowOtherUsersProfile extends AppCompatActivity {
 
     String uid;
     String myurl;
@@ -120,7 +120,7 @@ public class ShowProfile extends AppCompatActivity {
         databaseReference.setValue(getUserName());
         databaseReference= db.getReference("users").child(uid).child("friendRequest").child(FirebaseAuth.getInstance().getCurrentUser().getUid()).child("url");
         databaseReference.setValue(myurl);
-        Toast.makeText(ShowProfile.this, "Friend Request Sent!", Toast.LENGTH_LONG).show();
+        Toast.makeText(ShowOtherUsersProfile.this, "Friend Request Sent!", Toast.LENGTH_LONG).show();
 
     }
     public String getUserName()
