@@ -1,6 +1,6 @@
 # GamersSocialAndroidApp
 
-Video-https://www.veed.io/view/3d302216-8de1-481f-b575-625b16f2e62a?panel=share
+[![Watch the video](https://i.imgur.com/vKb2F1B.png)](https://youtu.be/vt5fpE0bzSY)
 
 App created with Android studio and fireBase to connect between Gamers around the world.
 The app porpose is to help gamers find gaming buddyes base on mutula liked games,
